@@ -4,7 +4,7 @@ document.getElementById("btn").addEventListener("click",function () {
 	let delay = document.getElementById("delay").value;
   let prom = new Promise ((resolve)=>{
     setTimeout(()=>{
-      document.getElementById("output").innerHTML=`<p>${tex} - ${delay}</p>`
+      document.getElementById("output").innerHTML=`<p>${tex}-${delay}</p>`
       resolve("ok");
     },delay*1000);
   })
@@ -15,7 +15,7 @@ document.getElementById("btn").addEventListener("click",function () {
 	}
 	
 	
-	delayFunction();
+   delayFunction();
   document.getElementById("text").value="";
   document.getElementById("delay").value="";
 	
