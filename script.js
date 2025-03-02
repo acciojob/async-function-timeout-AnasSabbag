@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded",function() {
     
 		await delayMssg(delay);
     
-		output.textContent =text;
+		output.textContent =`${text} - ${delay}`;
 		
 	}
 	
